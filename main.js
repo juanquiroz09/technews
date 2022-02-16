@@ -31,5 +31,5 @@ function readMore(btn){
     let post = btn.parentElement;
     post.querySelector(".dots").classList.toggle("hide");
     post.querySelector(".more").classList.toggle("hide");
-    btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
+    btn.textContent == "Leer Más" ? btn.textContent = "Leer Menos" : btn.textContent = "Leer Más";
 }
