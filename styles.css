@@ -16,11 +16,6 @@ a {
     text-decoration: none;
 }
 
-button {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 ul {
     list-style: none;
 }
@@ -92,8 +87,7 @@ hr {
     justify-content: flex-end;
 }
 
-.btn,
-.hideText-btn {
+.btn {
     cursor: pointer;
     display: inline-block;
     border: 0;
@@ -107,11 +101,6 @@ hr {
 
 .btn:hover {
     opacity: .7;
-}
-
-.hideText-btn:hover {
-    opacity: .7;
-    text-decoration: underline;
 }
 
 .showcase h2,
@@ -145,6 +134,28 @@ hr {
     font-size: 20px;
 }
 
+/*News Cards Read More Bottom*/
+
+.post{
+    font-family: "Roboto",sans-serif;
+}
+.post p{
+    font-size: 20px;
+}
+.post button{
+    padding: 10px;
+    background-color: #ff0268;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.post:not(:last-child){
+    margin-bottom: 50px;
+}
+.hide{
+    display: none;
+}
 /*Cards Baner One*/
 .cards-banner-one {
     width: 100%;
@@ -153,7 +164,7 @@ hr {
     margin-bottom: 40px;
 }
 
-.cards-banner-one .content {
+.cards-banner-one .content_b {
     width: 100%;
     padding: 70px 0 0 30px;
     color: white;
@@ -176,7 +187,7 @@ hr {
     height: 350px;
 }
 
-.cards-banner-two .content {
+.cards-banner-two .content_b {
     width: 50%;
     padding: 100px 0 0 30px;
     font-size: 20px;
@@ -273,7 +284,7 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .cards-banner-one .content .cards-banner-two .content {
+    .cards-banner-one .content_b .cards-banner-two .content_b {
         width: 80%;
     }
 
@@ -300,14 +311,4 @@ hr {
     .footer-links .footer-container {
         grid-template-columns: 1fr;
     }
-}
-
-/*Read More Bottom*/
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: block;
 }
