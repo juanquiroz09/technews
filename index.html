@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
     <!--Custom CSS-->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -27,10 +28,7 @@
             <img src="img/brand.png" alt="TechNews LOGO" class="nav-brand">
             <ul class="nav-menu">
                 <li>
-                    <a href="#">Web Developmen</a>
-                </li>
-                <li>
-                    <a href="#">Computing</a>
+                    <a href="./webdev.html">Computing</a>
                 </li>
             </ul>
             <ul class="nav-menu-right">
@@ -45,7 +43,7 @@
         <!--Showcase-->
         <header class="showcase">
             <h2>Big News Today</h2>
-            <p>Aqui encontraras noticias interesantes referentes a la tecnologìa</p>
+            <p>Aqui encontraras noticias interesantes referentes a la tecnología</p>
         </header>
 
         <!--News Cards-->
@@ -53,7 +51,8 @@
             <div class="post">
                 <img src="img/youtube.jpg" alt="youtube">
                 <h3>EL REPRODUCTOR DE YOUTUBE SE REDISEÑA POR COMPLETO OFRECE MÁS CONTROLES</h3>
-                <p class="content">Mediante esta renovación, YouTube pretende ponernos fácilmente los botones extras en la pantalla
+                <p class="content">Mediante esta renovación, YouTube pretende ponernos fácilmente los botones extras en
+                    la pantalla
                     completa, tales como like, dislike, comentarios, compartir y guardar en listas de reproducción.
                     Realmente, se trata de un ajuste, ya que anteriormente teníamos esta función, pero había que
                     hacer
@@ -66,7 +65,8 @@
             <div class="post">
                 <img src="img/instagram.jpg" alt="instagram">
                 <h3>INSTAGRAM REELS PRONTO TE DEJARÁ SUBIR VIDEOS DE MAYOR DURACIÓN</h3>
-                <p class="content">Según lo que reporta el filtrista de Instagram Alessandro Paluzzi, la plataforma de Meta estaría
+                <p class="content">Según lo que reporta el filtrista de Instagram Alessandro Paluzzi, la plataforma de
+                    Meta estaría
                     explorando la posibilidad de expandir los Reels hasta para 90 segundos, igualando a lo que ofrece
                     TikTok.
                     Realmente, aunque todavía no se ha lanzado ni se ha presentado oficialmente, lo más probable es
@@ -80,7 +80,8 @@
             <div class="post">
                 <img src="img/beats.jpg" alt="Apple Beats">
                 <h3>APPLE LANZA LOS NUEVOS BEATS FIT PRO EN MÉXICO Y OTROS PAÍSES</h3>
-                <p class="content">Los auriculares TWS de Beats de Apple están hechos pensando en los atletas y, por lo tanto, cuentan
+                <p class="content">Los auriculares TWS de Beats de Apple están hechos pensando en los atletas y, por lo
+                    tanto, cuentan
                     con un diseño de punta de ala para mantener los auriculares pegados a sus oídos ofreciendo un buen
                     ajuste.
                     Los auriculares vienen con el chip H1 de Apple que ofrece emparejamiento rápido y
@@ -93,7 +94,8 @@
             <div class="post">
                 <img src="img/sony.jpg" alt="Sony Audio">
                 <h3>SONY LANZA UNA NUEVA BARRA DE SONIDO CON AMBIENTE VIRTUAL A UN PRECIO “DE REMATE”</h3>
-                <p class="content">Específicamente hablamos de la Sony HT-5400, que nos brindará una excelente calidad de sonido para
+                <p class="content">Específicamente hablamos de la Sony HT-5400, que nos brindará una excelente calidad
+                    de sonido para
                     todo el contenido que veamos en TV. Va enfocada a todo público, en especial para quienes desean
                     conseguir una mejor calidad de audio en su día a día.</p>
                 <button onclick="readMore(this)">Leer Más</button>
@@ -101,9 +103,17 @@
         </div>
         <section class="cards-banner-one">
             <div class="content_b">
-                <h2>Albert Einstein (Científico)</h2>
-                <p>Se ha vuelto terriblemente obvio que nuestra tecnología ha superado nuestra humanidad.</p>
-                <a href="#" class="btn">LLeer Más <i class="fas fa-angle-double-right"></i></a>
+                <h2>HUAWEI YA ESTÁ DESARROLLANDO SU CELULAR ENROLLABLE SEGÚN REPORTE</h2>
+                <p class="content">La noticia es sorprendente, ya que la compañía de momento ha hecho plegables como el
+                    Mate Xs, Mate X2
+                    y P50 Pocket, pero jamás hemos visto un enrollable por parte de ellos (ni de ninguna otra compañía
+                    en el mundo).
+                    El CEO de Huawei Consumer Business Group y BU de Smart Car Solution, Yu Chengdong, ha compartido
+                    recientemente una resolución por parte de la compañía sobre su segmento de los smartphones
+                    plegables, mismo que llegó mediante Weibo.
+                    Yu comentó que Huawei está trabajando en muchos productos que tendrán un efecto poderoso en la
+                    industria y están siendo desarrollados actualmente.</p>
+                <button onclick="readMore(this)" class="btn">Leer Más</button>
             </div>
         </section>
 
@@ -112,7 +122,8 @@
             <div class="post">
                 <img src="img/malware.jpg" alt="MALWARE">
                 <h3>ESTE AVANZADO MALWARE ESTÁ ATACANDO EN LATINOAMÉRICA </h3>
-                <p class="content">Gracias a una compañía de ciberseguridad llamada Cleafy, tenemos detalles importantes sobre BRATA, un
+                <p class="content">Gracias a una compañía de ciberseguridad llamada Cleafy, tenemos detalles importantes
+                    sobre BRATA, un
                     avanzado malware que evoluciona por sí mismo, tal como lo hace un virus real (COVID-19 por ejemplo).
                 </p>
                 <button onclick="readMore(this)">Leer Más</button>
@@ -120,38 +131,48 @@
             <div class="post">
                 <img src="img/mediatek.jpg" alt="MediaTek">
                 <h3>MEDIATEK DIMENSITY 9000 DERROTA AL SNAPDRAGON 8 GEN 1 Y AL EXYNOS 2200 EN BENCHMARK</h3>
-                <p class="content">MediaTek lanzó hace poco su primer procesador verdaderamente gama alta, el Dimensity 9000. Por lo
+                <p class="content">MediaTek lanzó hace poco su primer procesador verdaderamente gama alta, el Dimensity
+                    9000. Por lo
                     tanto, se esperaría que se ponga cara a cara contra el Snapdragon 8 Gen1; y no quedó allí, sino que
                     todo indica que realmente lo ha derrotado.</p>
-                    <button onclick="readMore(this)">Leer Más</button>
+                <button onclick="readMore(this)">Leer Más</button>
             </div>
             <div class="post">
                 <img src="img/nextflix.jpg" alt="Nextflix">
                 <h3>NETFLIX CONTINÚA SUBIENDO SUS PRECIOS, ESTA VEZ LO HACE EN LUGARES FUERTES</h3>
-                <p class="content">Desde octubre del 2020, Netflix no había subido sus precios para los Estados Unidos ni Canadá, pero
+                <p class="content">Desde octubre del 2020, Netflix no había subido sus precios para los Estados Unidos
+                    ni Canadá, pero
                     parece que la compañía ahora está lista para terminar este récord.
                     De hoy en adelante, los precios del servicio en ambos países subirán entre $1 dólar a $2 dólares. La
                     subida aplicará para usuarios actuales y nuevos.</p>
-                    <button onclick="readMore(this)">Leer Más</button>
+                <button onclick="readMore(this)">Leer Más</button>
             </div>
             <div class="post">
                 <img src="img/metaverso.jpg" alt="News 1">
                 <h3>META DE ZUCKERBERG ENFRENTA DOS NUEVAS DEMANDAS: UNA POR ESTADOS UNIDOS Y OTRA POR INGLATERRA</h3>
-                <p class="content">El gobierno estadounidense podría obligar a Meta a deshacerse de sus dos más actuales absorciones:
+                <p class="content">El gobierno estadounidense podría obligar a Meta a deshacerse de sus dos más actuales
+                    absorciones:
                     Instagram y WhatsApp. Desde el 11 de enero, un juzgado del Distrito de Columbia admitió una demanda
                     antimonopolio de la Comisión Federal de Comercio contra Facebook, donde la acusación principal es
                     que Meta tiene un monopolio ilegal al haber adquirido dos rivales directos, es decir, WhatsApp e
                     Instagram.</p>
-                    <button onclick="readMore(this)">Leer Más</button>
+                <button onclick="readMore(this)">Leer Más</button>
             </div>
 
         </div>
         <section class="cards-banner-two">
             <div class="content_b">
-                <h2>Alan Moore</h2>
-                <p>La tecnología es siempre un arma de doble filo. Traerá muchos beneficios, pero también muchos
-                    desastres.</p>
-                <a href="#" class="btn">LLeer Más <i class="fas fa-angle-double-right"></i></a>
+                <h2>LAS APLICACIONES DE ANDROID YA ESTÁN DISPONIBLES PARA WINDOWS 11 A PARTIR DE HOY</h2>
+                <p class="content">Finalmente el día llegó, a partir de hoy y mediante una actualización, podrás
+                    utilizar apps de
+                    Android en Windows 11. Anteriormente, habían estado disponibles para ciertos insiders, pero ahora
+                    están para todo público.Cuando Windows 11 fue lanzado el año pasado, no dio tiempo de que esta
+                    función estuviera lista para todos. Un tiempo más tarde, llegó para los insiders en ese mismo año. A
+                    un mes y medio del 2022, finalmente hay apps Android para todos los usuarios de Windows.
+                    A diferencia de su beta, donde solamente habían unas 50 apps de Android, en esta versión final
+                    tendremos más de 100 apps de Android para correrlas directo en Windows.
+                </p>
+                <button onclick="readMore(this)" class="btn">Leer Más</button>
             </div>
         </section>
         <section>
@@ -175,26 +196,21 @@
         <div class="footer-container">
             <ul>
                 <li>
-                    <a href="">
-                        <h3>Elaborado Por</h3>
-                    </a>
+                    <h3>Elaborado Por</h3>
                 </li>
                 <li>
-                    <a href="">Juan Quiroz</a>
+                    <span>Juan Quiroz</span>
                 </li>
                 <li>
-                    <a href="">Programador</a>
+                    <span>Programador</span>
                 </li>
             </ul>
-
             <ul>
                 <li>
-                    <a href="">
-                        <h3>Contacto</h3>
-                    </a>
+                    <h3>Contacto</h3>
                 </li>
                 <li>
-                    <a href="">juan.quiroz1009@gmail.com</a>
+                    <a class="linksj" href="linkedin.com/in/juan-quiroz-b11732229"><i class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>
